@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+fieldset {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 2em;
+}
+
+legend {
+    color: #a9a9a9;
+    font-weight: bolder;
+    font-size: 95%;
+    margin-bottom: .5em;
+    text-decoration: underline;
+    text-align: center;
+    justify-content: center;
+}
+
+label, input, select {
+    font-size: 85%;
+    justify-content: center;
+    text-align: center;
+}
+
+label {
+    float: left;
+    width: 10em;
+    text-align: right;
+}
+
+input, select {
+    width: 15em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+input:required, input[required] {
+    border: 3px solid #DC143C;
+}
+
+input:valid {
+    border: 5px solid #000000;
+}
+
+input:invalid {
+    box-shadow: none;
+    border: 5px solid #800000;
+}
+
+br { 
+    clear: both;
+}
+    
+#buttons input {
+    width: 20em;
+}
+
